@@ -1,0 +1,233 @@
+        .w3-container-hourly {
+            
+          background-image: url('https://cdn.vox-cdn.com/thumbor/tZLxhLAWoEFRpf0pe-CirjvF0XY=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/15788040/20150428-cloud-computing.0.1489222360.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: 100% 100%;
+          /* padding-left: 2em; */
+          padding-left: 1em;
+          padding-right: 1em;
+        }
+
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          text-align: center;
+        }
+
+        .w3-cell-row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        #searches-view {
+          font-family: 'Prata', serif;
+          font-size: 20px;
+          text-align: center;
+
+        }
+        .hour-time {
+          text-align: center;
+        }
+        .card-divider {
+          font-family: 10 px, 'Volkhov', serif;
+        }
+        /* small bottom section for all daily forecast */
+        .cards {
+          display: flex;
+          --distance: -4rem;  
+          text-align: center;
+          color:black;
+          font-family: 'Prata', serif;
+          font-size: 20px;
+          
+        }
+
+
+        .card {
+      
+        padding: 2rem;
+        margin-left: 2rem;
+        box-shadow: 10px 410x 15px 2px
+      }
+
+
+        .cardsHourly {
+        display: flex;
+          --distance: -4rem;  
+          text-align: center;
+        }
+
+       /* each hourly card */
+        .cardHourly{
+        background-color: rgb(163, 215, 241);
+        padding: 2rem;
+        margin-right: 6px;
+        margin-left: 6px;
+        display: center;
+        /* margin-left: -4rem; */
+        margin-left: -10 rem;
+        box-shadow: 10px 410x 15px 2px
+        rgba(black, 0.75);
+        transition: 0.2s;
+        font-family: 'Volkhov', serif;
+        font-size: 20px;
+  
+        }
+  
+      .cardHourly-selection {
+        padding:1rem;
+      }
+  
+      .card-selection {
+        padding:1rem;
+      }
+  
+      .cardHourly:hover { 
+        transform: translateY(-1rem); 
+    }
+  
+      .card:hover { 
+        transform: translateY(-1rem); 
+    }
+  
+        .hourTime {
+          text-align: center;
+          display:flex;
+        }
+
+        .hourForecast {
+          Color: black;
+          text-align: center;
+        }
+
+        .hourRain {
+          Color: black;
+          text-align: center;
+        }
+
+      #map {
+        height: 100%;
+      }
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .add-city-button {
+        display: flex;
+      }
+
+      #icon1 {
+        animation-name: initial;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+      }
+
+      iframe {
+        border: 1px solid black;
+        width: 600%;
+        height: 300%;
+    }
+    
+    .output {
+        background: #eee;
+    }
+
+    .w3-cell-row {
+
+      height: 50px;
+    }
+
+    .hourlyForecast {
+      display: block;
+      text-align: center;
+      color: rgb(4, 18, 44)
+      
+      
+  }
+    .daysForecast {
+      text-align: center;
+      color: rgb(4, 18, 44)
+    }
+
+      /* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* #link1{
+  background-color: rgb(255, 0, 0);
+} */
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.w3-bar {
+  overflow: hidden;
+}
+.w3-bar a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.w3-bar .icon {
+  display: none;
+}
+
+  @media only screen and (max-width: 768px) {
+
+    .card {
+      width: 100%;
+   }
+
+  }
+  
+
+
+
+
+
